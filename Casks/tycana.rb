@@ -3,7 +3,7 @@ cask "tycana" do
   name "tycana"
   desc "Terminal-first task manager with calendar sync"
   homepage "https://tycana.com"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tycana" do
   on_macos do
     on_intel do
       url "https://github.com/tycana/releases/releases/download/v#{version}/tycana_#{version}_darwin_x86_64.tar.gz"
-      sha256 "6594a63ba10c03fcc972994e05e733551e586979b6c58855cd21bafe9ac08abe"
+      sha256 "7a8c6af38222b92a90c7d6d5fcdbedb03fe004bc467d18b7dd95f8a10717d795"
     end
     on_arm do
       url "https://github.com/tycana/releases/releases/download/v#{version}/tycana_#{version}_darwin_arm64.tar.gz"
-      sha256 "495115a2c38cd272e77bd0a397bdd6d040523728377cc52ca23f29c6985c5949"
+      sha256 "833ab37e7537a8d16bdc754a6f4ce0db1ef717fc667b6aa1d6ce1ddac86cbfbe"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/tycana/releases/releases/download/v#{version}/tycana_#{version}_linux_x86_64.tar.gz"
-      sha256 "15d74c41084bbd8373222a6df8ed7358c151167d08b2921bcdcb19f6692738b2"
+      sha256 "299d107525d546f4c235cbddc96edce1b4ef5b558b8ef4eaa73a0be47d7b072b"
     end
     on_arm do
       url "https://github.com/tycana/releases/releases/download/v#{version}/tycana_#{version}_linux_arm64.tar.gz"
-      sha256 "8ab381db551f8821598156561c2f2f3229914eaa5710c16c2d7cad709d47611a"
+      sha256 "fd423f4f93440c9b79d60e5a2266adb2fe661a48c2cee82e373773bf092cd66b"
     end
   end
 
